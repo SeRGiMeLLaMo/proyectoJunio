@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: F4AED9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sexxop.Mensajesignup">
+   <children>
+      <ImageView fitHeight="68.0" fitWidth="69.0" layoutX="14.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../proyectosexxopb/sexxop/src/main/resources/Assets/tickrosa.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <Text fill="WHITE" layoutX="112.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your account has been successfully registered" textAlignment="CENTER" wrappingWidth="146.13671875">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Button fx:id="buttOk1" defaultButton="true" layoutX="157.0" layoutY="58.0" mnemonicParsing="false" onAction="#buttOk1" text="Okey ;-)" textFill="WHITE">
+         <effect>
+            <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.74" saturation="0.12">
+               <input>
+                  <DropShadow />
+               </input>
+            </ColorAdjust>
+         </effect>
+      </Button>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>
