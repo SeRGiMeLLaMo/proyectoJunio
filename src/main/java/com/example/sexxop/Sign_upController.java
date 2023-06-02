@@ -34,6 +34,9 @@ public class Sign_upController {
         ClientDAO cdao = new ClientDAO();
         cdao.save(c);
 
+
+            //Mensajes emergentes
+
         if (cdao.save(c) != null){
 
             @FXML
