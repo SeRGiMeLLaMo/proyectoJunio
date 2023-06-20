@@ -2,15 +2,17 @@ package com.example.sexxop;
 
 import com.example.sexxop.model.dao.ClientDAO;
 import com.example.sexxop.model.domain.ClientClass;
+import com.example.sexxop.utils.Validaciones;
 import javafx.fxml.FXML;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
 import java.io.IOException;
+import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Date;
+
 
 public class Sign_upController {
 
@@ -24,11 +26,12 @@ public class Sign_upController {
     private PasswordField password;
 
     @FXML
-    public void add() throws SQLException {
+    public void add() throws SQLException, IOException {
         String nombre = name.getText();
         Date fecha = java.sql.Date.valueOf(birthdate.getValue());
         String usuario = username.getText();
         String contrasena = password.getText();
+        contrasena= Validaciones.encryptSHA256(contrasena);
 
         ClientClass c = new ClientClass(nombre, fecha, usuario, contrasena);
         ClientDAO cdao = new ClientDAO();
@@ -37,15 +40,7 @@ public class Sign_upController {
 
             //Mensajes emergentes
 
-        if (cdao.save(c) != null){
 
-            @FXML
-            HelloApplication.setRoot("Login");
-        }else {
-
-            @FXML
-            HelloApplication.setRoot("Sign_up");
-        }
     }
 
     @FXML

@@ -1,6 +1,6 @@
 package com.example.sexxop.model.domain;
 
-import java.util.Date;
+import java.sql.Date;
 import java.util.Objects;
 
 public class ClientClass {
@@ -9,6 +9,13 @@ public class ClientClass {
     private Date birthday;
     private String user_login;
     private String password_login;
+
+    public ClientClass(int id, String name, Date birthday, String user_login) {
+        this.id = id;
+        this.name = name;
+        this.birthday = birthday;
+        this.user_login = user_login;
+    }
 
     public ClientClass() {
     }

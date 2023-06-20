@@ -22,7 +22,7 @@
             <Font name="Open Sans Italic" size="24.0" />
          </font>
       </Text>
-      <Text layoutX="77.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+      <Text layoutX="77.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User">
          <font>
             <Font name="Open Sans Italic" size="13.0" />
          </font>
@@ -32,8 +32,9 @@
             <Font name="Open Sans Italic" size="13.0" />
          </font>
       </Text>
-      <TextField layoutX="184.0" layoutY="195.0" prefHeight="26.0" prefWidth="231.0" promptText="user" />
-      <Button fx:id="btnlogin" defaultButton="true" layoutX="161.0" layoutY="320.0" mnemonicParsing="false" onAction="#goMenu" text="log in" textFill="WHITE">
+      <TextField fx:id="txtUser" layoutX="184.0" layoutY="195.0" prefHeight="26.0" prefWidth="231.0" promptText="user" text="admin" />
+      <PasswordField fx:id="txtPassword" layoutX="184.0" layoutY="255.0" prefHeight="26.0" prefWidth="231.0" promptText="********" text="admin" />
+      <Button fx:id="btnLogin" defaultButton="true" layoutX="161.0" layoutY="320.0" mnemonicParsing="false" onAction="#eventAtion" text="log in" textFill="WHITE">
          <effect>
             <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.74" saturation="0.12" />
          </effect>
@@ -48,16 +49,10 @@
             <Image url="@../../../Assets/img.png" />
          </image>
       </ImageView>
-      <PasswordField layoutX="184.0" layoutY="255.0" prefHeight="26.0" prefWidth="231.0" promptText="********" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Assets/sexxop.png" />
          </image>
       </ImageView>
-      <Button defaultButton="true" layoutX="397.0" layoutY="330.0" mnemonicParsing="false" onAction="#signUp" text="Sign up" textFill="WHITE">
-         <effect>
-            <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.74" saturation="0.12" />
-         </effect>
-      </Button>
    </children>
 </AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="452.8" style="-fx-background-color: F4AED8;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sexxop.AdminClientConstroller">
+   <children>
+      <TableView fx:id="myTable" layoutX="126.0" layoutY="38.0" prefHeight="262.0" prefWidth="299.0" style="-fx-background-color: F4AED8;">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="name" prefWidth="75.0" text="NAME" />
+            <TableColumn fx:id="birthdate" prefWidth="75.0" text="BIRTHDATE" />
+            <TableColumn fx:id="user_login" prefWidth="75.0" text="USER" />
+        </columns>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TableView>
+      <TextField fx:id="buscar" layoutX="201.0" layoutY="324.0" promptText="Buscar" />
+   </children>
+</AnchorPane>
