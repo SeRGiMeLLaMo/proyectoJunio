@@ -4,40 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0125f43-4d65-4221-af07-220455b8da29" name="Changes" comment="cambios">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/AdminClientConstroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/AdminProductsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/AdminPurchasesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/ClientProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/ClientPurchasesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/RegisterProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/model/dao/PurchaseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/model/domain/Purchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/singleton/UserSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/utils/Validaciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/sexxop/adminClients.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/sexxop/adminProducts.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/sexxop/adminPurchases.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/sexxop/client.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/sexxop/clientProduct.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/sexxop/clientPurchases.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/sexxop/registrarProductos.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/test/ClientClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="c0125f43-4d65-4221-af07-220455b8da29" name="Changes" comment="cambios nuevos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sexxop/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sexxop/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sexxop/Sign_upController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/Sign_upController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sexxop/model/dao/ClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/model/dao/ClientDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sexxop/model/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/model/dao/ProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sexxop/model/domain/ClientClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/model/domain/ClientClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sexxop/model/domain/ProductClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sexxop/model/domain/ProductClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sexxop/model/test/TestClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/sexxop/Sign_up.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/sexxop/Sign_up.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/sexxop/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/sexxop/login.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
