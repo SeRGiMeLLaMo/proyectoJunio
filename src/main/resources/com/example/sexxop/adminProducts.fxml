@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="bp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sexxop.AdminProductsController">
+   <left>
+      <VBox prefHeight="400.0" prefWidth="147.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button defaultButton="true" mnemonicParsing="false" onMouseClicked="#products" prefHeight="90.0" prefWidth="147.0" text="PRODUCTS" textFill="WHITE">
+               <effect>
+                  <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.74" saturation="0.12" />
+               </effect>
+            </Button>
+            <Button defaultButton="true" mnemonicParsing="false" onMouseClicked="#adminClients" prefHeight="90.0" prefWidth="147.0" text="CLIENTS" textFill="WHITE">
+               <effect>
+                  <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.74" saturation="0.12" />
+               </effect>
+            </Button>
+            <Button defaultButton="true" mnemonicParsing="false" onMouseClicked="#adminPurchase" prefHeight="90.0" prefWidth="147.0" text="PURCHASES" textFill="WHITE">
+               <effect>
+                  <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.74" saturation="0.12" />
+               </effect>
+            </Button>
+            <Button defaultButton="true" mnemonicParsing="false" onMouseClicked="#back2" prefHeight="90.0" prefWidth="147.0" text="BACK" textFill="WHITE">
+               <effect>
+                  <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.74" saturation="0.12" />
+               </effect>
+            </Button>
+            <ImageView fitHeight="100.0" fitWidth="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Assets/sexxop.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane fx:id="ap" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: F4AED8;" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="mytable" layoutX="43.0" layoutY="61.0" prefHeight="278.0" prefWidth="365.0" style="-fx-background-color: F4AED8;">
+              <columns>
+                <TableColumn fx:id="id" prefWidth="35.20001220703125" text="ID" />
+                <TableColumn fx:id="name" prefWidth="104.79998779296875" text="NAME" />
+                  <TableColumn fx:id="more" prefWidth="169.59996032714844" text="MORE" />
+                  <TableColumn fx:id="price" prefWidth="57.60003662109375" text="PRICE" />
+              </columns>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TableView>
+            <TextField fx:id="buscar" layoutX="246.0" layoutY="15.0" prefHeight="32.0" prefWidth="162.0" promptText="Buscar" />
+            <Button defaultButton="true" layoutX="43.0" layoutY="18.0" mnemonicParsing="false" onAction="#insert" text="Insert" textFill="WHITE">
+               <effect>
+                  <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.74" saturation="0.12" />
+               </effect>
+            </Button>
+            <Button defaultButton="true" layoutX="151.0" layoutY="18.0" mnemonicParsing="false" onAction="#deleteProduct" text="Eliminar" textFill="WHITE">
+               <effect>
+                  <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.74" saturation="0.12" />
+               </effect>
+            </Button>
+         </children></AnchorPane>
+   </center>
+</BorderPane>

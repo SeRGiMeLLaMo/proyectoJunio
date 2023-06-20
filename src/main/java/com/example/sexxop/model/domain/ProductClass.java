@@ -18,6 +18,14 @@ public class ProductClass {
 
     }
 
+    public ProductClass(String name, Double price, String more) {
+
+        this.name = name;
+        this.price = price;
+        this.more = more;
+    }
+
+
     public int getId() {
         return id;
     }
@@ -65,11 +73,6 @@ public class ProductClass {
 
     @Override
     public String toString() {
-        return "ProductClass{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", more='" + more + '\'' +
-                '}';
+        return name;
     }
 }

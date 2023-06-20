@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: F4AED8;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sexxop.RegisterProductController">
+   <children>
+      <ImageView fitHeight="61.0" fitWidth="158.0" layoutX="231.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Assets/sexxop.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="name" layoutX="81.0" layoutY="138.0" promptText="product name" />
+      <TextField fx:id="price" layoutX="389.0" layoutY="138.0" promptText="00.00" />
+      <TextArea fx:id="more" layoutX="217.0" layoutY="224.0" prefHeight="138.0" prefWidth="185.0" promptText="..." />
+      <Label layoutX="38.0" layoutY="142.0" text="NAME" />
+      <Label layoutX="347.0" layoutY="142.0" text="PRICE" />
+      <Label layoutX="55.0" layoutY="284.0" text="DESCRIPTION OF PRODUCT" />
+      <Button defaultButton="true" layoutX="484.0" layoutY="336.0" mnemonicParsing="false" onAction="#back1" text="Back" textFill="WHITE">
+         <effect>
+            <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.74" saturation="0.12" />
+         </effect>
+      </Button>
+      <Button defaultButton="true" layoutX="481.0" layoutY="224.0" mnemonicParsing="false" onAction="#add" text="Insert" textFill="WHITE">
+         <effect>
+            <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.74" saturation="0.12" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

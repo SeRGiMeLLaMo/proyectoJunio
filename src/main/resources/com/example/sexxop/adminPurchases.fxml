@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="452.8" style="-fx-background-color: F4AED8;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sexxop.AdminPurchasesController">
+   <children>
+      <TableView fx:id="myTable" layoutX="155.0" layoutY="34.0" prefHeight="248.0" prefWidth="264.0" style="-fx-background-color: F4AED8;">
+        <columns>
+          <TableColumn fx:id="client" prefWidth="67.99993896484375" text="ID_CLIENT" />
+          <TableColumn fx:id="product" prefWidth="83.99993896484375" text="ID_PRODUCT" />
+            <TableColumn fx:id="date" prefWidth="112.00006103515625" text="TIME" />
+        </columns>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TableView>
+      <TextField fx:id="buscar" layoutX="14.0" layoutY="45.0" prefHeight="26.0" prefWidth="119.0" />
+   </children>
+</AnchorPane>

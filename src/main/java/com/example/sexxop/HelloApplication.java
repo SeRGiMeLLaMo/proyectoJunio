@@ -16,6 +16,7 @@ public class HelloApplication extends Application {
         scene = new Scene(loadFXML("login"), 600, 500);
         stage.setScene(scene);
         stage.show();
+
     }
 
     public static void setRoot(String fxml) throws IOException {
